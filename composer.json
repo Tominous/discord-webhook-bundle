@@ -1,0 +1,23 @@
+{
+    "name": "labymod/discord-webhook-bundle",
+    "description": "A Symfony bundle which integrates the support of Discord™ webhooks to your application",
+    "type": "symfony-bundle",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "LabyMod Scrummer",
+            "email": "scrummer@gmx.ch",
+            "homepage": "https://labymod.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "labymod/discord-webhook": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DiscordWebhookBundle\\": "src/DiscordWebhookBundle/"
+        }
+    }
+}
