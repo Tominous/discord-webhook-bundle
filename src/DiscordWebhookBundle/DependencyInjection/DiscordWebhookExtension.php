@@ -11,7 +11,7 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 /**
  * Class DiscordWebhookExtension
  *
- * @author Jan Pache <jpache@dachcom.ch>
+ * @author Scrummer <scrummer@gmx.ch>
  * @package DiscordWebhookBundle\DependencyInjection
  */
 class DiscordWebhookExtension extends Extension
